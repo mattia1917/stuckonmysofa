@@ -1,4 +1,4 @@
-# 📚 StuckOnMySofa — Comic & Graphic Novel Recommender
+# StuckOnMySofa — Comic & Graphic Novel Recommender
 
 > A content-based recommendation system for comics and graphic novels.  
 > Built for the Data Mining and Text Analytics course — IULM University, A.A. 2025-2026.
@@ -7,9 +7,9 @@
 
 ## What is StuckOnMySofa?
 
-StuckOnMySofa helps you decide what to read next when you are stuck on your sofa and cannot choose.
+StuckOnMySofa helps you decide what to read next when you are stuck on your sofa choosing for good comics watchinng reviews instead of reading.
 
-You can either search by title — "find me something like Watchmen" — or describe what you are in the mood for — "dark political superhero adult" — and the system will recommend the best matching comics and graphic novels from its dataset of over 15,000 titles.
+You can either search by title — "find me something like Watchmen" — or describe what you are in the mood for — "dark political" — and the system will recommend the best matching comics and graphic novels from its dataset of over 15,000 titles.
 
 The system uses **TF-IDF vectorization** and **cosine similarity** — core data mining techniques covered in this course — to compare titles based on their genre, themes, audience, and content tags.
 
