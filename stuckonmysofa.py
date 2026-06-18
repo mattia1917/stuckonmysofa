@@ -25,7 +25,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 DATASET_PATH = os.path.join(
     os.path.dirname(__file__),
-    "manga_dataset_top_1000_rating_english_titles.csv"
+    "top 1000 manga.csv"
 )
 
 TOP_N = 5
