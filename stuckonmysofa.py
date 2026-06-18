@@ -39,7 +39,7 @@ def load_dataset(path: str) -> pd.DataFrame:
     if not os.path.exists(path):
         print(f"\n[ERROR] Dataset not found at: {path}")
         print(
-            "Make sure 'manga_dataset_top_1000_rating_english_titles.csv' "
+            "top 1000 manga.csv"
             "is in the same folder as this script."
         )
         sys.exit(1)
